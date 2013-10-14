@@ -1,0 +1,1252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D0327721572382000E4BF0B /* DFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0327711572382000E4BF0B /* DFView.m */; };
+		9D055A3B157C56E0004144DE /* Instructor_CourseTable_Add.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D055A35157C56DE004144DE /* Instructor_CourseTable_Add.png */; };
+		9D055A3C157C56E0004144DE /* Instructor_CourseTable_Remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D055A36157C56DE004144DE /* Instructor_CourseTable_Remove.png */; };
+		9D055A3D157C56E0004144DE /* Instructor_CourseTable_Show.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D055A37157C56DE004144DE /* Instructor_CourseTable_Show.png */; };
+		9D055A3E157C56E0004144DE /* Instructor_CourseTable_Add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D055A38157C56DF004144DE /* Instructor_CourseTable_Add@2x.png */; };
+		9D055A3F157C56E0004144DE /* Instructor_CourseTable_Remove@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D055A39157C56DF004144DE /* Instructor_CourseTable_Remove@2x.png */; };
+		9D055A40157C56E0004144DE /* Instructor_CourseTable_Show@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D055A3A157C56E0004144DE /* Instructor_CourseTable_Show@2x.png */; };
+		9D055A45157C5E88004144DE /* DimissKeyboard_BarItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D055A43157C5E88004144DE /* DimissKeyboard_BarItem@2x.png */; };
+		9D055A46157C5E88004144DE /* DimissKeyboard_BarItem.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D055A44157C5E88004144DE /* DimissKeyboard_BarItem.png */; };
+		9D08349C156D218C007ABA4D /* DFInstructor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D083499156D218C007ABA4D /* DFInstructor.m */; };
+		9D08349D156D218C007ABA4D /* DFInstructorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D08349B156D218C007ABA4D /* DFInstructorButton.m */; };
+		9D0D843515707641003455BA /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0D843415707641003455BA /* Test.m */; };
+		9D145F75153AFBCB00523995 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D145F74153AFBCB00523995 /* QuartzCore.framework */; };
+		9D15705C1504C29C00DFA6CE /* EnterHelperTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D15705B1504C29C00DFA6CE /* EnterHelperTableCell.m */; };
+		9D182B58151886930033204F /* EHFloatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D182B57151886930033204F /* EHFloatingView.m */; };
+		9D1F2E77154402EC00C0458B /* DFCourseIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F2E76154402EC00C0458B /* DFCourseIconView.m */; };
+		9D1F2E7B1544099500C0458B /* DefaultCourseIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D1F2E7A1544099500C0458B /* DefaultCourseIcon.png */; };
+		9D2758A5152E91B900CBD438 /* NotePaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2758A4152E91B900CBD438 /* NotePaper.m */; };
+		9D2B45F01577890900ADDD5B /* Instructor_Add.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B45E41577890900ADDD5B /* Instructor_Add.png */; };
+		9D2B45F11577890900ADDD5B /* Instructor_Add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B45E51577890900ADDD5B /* Instructor_Add@2x.png */; };
+		9D2B45F21577890900ADDD5B /* Instructor_Bulb.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B45E61577890900ADDD5B /* Instructor_Bulb.png */; };
+		9D2B45F31577890900ADDD5B /* Instructor_Bulb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B45E71577890900ADDD5B /* Instructor_Bulb@2x.png */; };
+		9D2B45F41577890900ADDD5B /* Instructor_Compose.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B45E81577890900ADDD5B /* Instructor_Compose.png */; };
+		9D2B45F51577890900ADDD5B /* Instructor_Compose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B45E91577890900ADDD5B /* Instructor_Compose@2x.png */; };
+		9D2B45F61577890900ADDD5B /* Instructor_EnterAssist.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B45EA1577890900ADDD5B /* Instructor_EnterAssist.png */; };
+		9D2B45F71577890900ADDD5B /* Instructor_EnterAssist@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B45EB1577890900ADDD5B /* Instructor_EnterAssist@2x.png */; };
+		9D2B45F81577890900ADDD5B /* Instructor_Schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B45EC1577890900ADDD5B /* Instructor_Schedule.png */; };
+		9D2B45F91577890900ADDD5B /* Instructor_Schedule@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B45ED1577890900ADDD5B /* Instructor_Schedule@2x.png */; };
+		9D2B45FA1577890900ADDD5B /* Instructor_Subjects.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B45EE1577890900ADDD5B /* Instructor_Subjects.png */; };
+		9D2B45FB1577890900ADDD5B /* Instructor_Subjects@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B45EF1577890900ADDD5B /* Instructor_Subjects@2x.png */; };
+		9D369DEA151C191F00DD65DA /* DFFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D369DE9151C191E00DD65DA /* DFFormView.m */; };
+		9D369DEE151C194900DD65DA /* DFFormViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D369DED151C194800DD65DA /* DFFormViewCell.m */; };
+		9D43E1051564FC36003322BD /* DFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D43E1041564FC36003322BD /* DFObject.m */; };
+		9D474C4C15760D7600F2F523 /* NotePaper_Expended@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D474C4A15760D7600F2F523 /* NotePaper_Expended@2x.png */; };
+		9D474C4D15760D7600F2F523 /* NotePaper_Expended.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D474C4B15760D7600F2F523 /* NotePaper_Expended.png */; };
+		9D474C5115760FC600F2F523 /* Addition@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D474C4F15760FC600F2F523 /* Addition@2x.png */; };
+		9D474C5215760FC600F2F523 /* Addition.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D474C5015760FC600F2F523 /* Addition.png */; };
+		9D474C5A157615FD00F2F523 /* Blackboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D474C58157615FD00F2F523 /* Blackboard@2x.png */; };
+		9D474C5B157615FD00F2F523 /* Blackboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D474C59157615FD00F2F523 /* Blackboard.png */; };
+		9D474C5E157622B300F2F523 /* DFBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D474C5D157622B300F2F523 /* DFBarButtonItem.m */; };
+		9D474C7015762B1F00F2F523 /* Instructor_BarItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D474C6E15762B1F00F2F523 /* Instructor_BarItem@2x.png */; };
+		9D474C7115762B1F00F2F523 /* Instructor_BarItem.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D474C6F15762B1F00F2F523 /* Instructor_BarItem.png */; };
+		9D474C7C157634FF00F2F523 /* Schedule_BarItem.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D474C7A157634FF00F2F523 /* Schedule_BarItem.png */; };
+		9D474C7D157634FF00F2F523 /* Schedule_BarItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D474C7B157634FF00F2F523 /* Schedule_BarItem@2x.png */; };
+		9D474C801576380600F2F523 /* Subjects_BarItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D474C7E1576380600F2F523 /* Subjects_BarItem@2x.png */; };
+		9D474C811576380600F2F523 /* Subjects_BarItem.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D474C7F1576380600F2F523 /* Subjects_BarItem.png */; };
+		9D4B088415249F14001BDBD0 /* CourseIconCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4B088315249F14001BDBD0 /* CourseIconCon.m */; };
+		9D4F6EA6157361AD0094899F /* Location_DayCell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F6EA4157361AD0094899F /* Location_DayCell@2x.png */; };
+		9D4F6EA7157361AD0094899F /* Location_DayCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F6EA5157361AD0094899F /* Location_DayCell.png */; };
+		9D4F6EAB157362970094899F /* Instructor_DayCell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F6EA9157362970094899F /* Instructor_DayCell@2x.png */; };
+		9D4F6EAC157362970094899F /* Instructor_DayCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F6EAA157362970094899F /* Instructor_DayCell.png */; };
+		9D4F6EAF1573632E0094899F /* Note_DayCellx.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F6EAD1573632E0094899F /* Note_DayCellx.png */; };
+		9D4F6EB01573632E0094899F /* Note_DayCell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F6EAE1573632E0094899F /* Note_DayCell@2x.png */; };
+		9D4F6EB3157364760094899F /* CourseTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F6EB2157364760094899F /* CourseTableCell.xib */; };
+		9D4F6EC0157379730094899F /* CourseCon.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F6EBF157379730094899F /* CourseCon.xib */; };
+		9D4F6F0215738AE00094899F /* Instructor_CourseCon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F6F0015738AE00094899F /* Instructor_CourseCon@2x.png */; };
+		9D4F6F0315738AE00094899F /* Instructor_CourseCon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F6F0115738AE00094899F /* Instructor_CourseCon.png */; };
+		9D4F6F0615738AF30094899F /* Location_CourseCon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F6F0415738AF30094899F /* Location_CourseCon@2x.png */; };
+		9D4F6F0715738AF30094899F /* Location_CourseCon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4F6F0515738AF30094899F /* Location_CourseCon.png */; };
+		9D57DF0F15765EDA0032EE58 /* EnterAssistant_BarItem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D57DF0D15765EDA0032EE58 /* EnterAssistant_BarItem@2x.png */; };
+		9D57DF1315765F700032EE58 /* EnterAssistant_BarItem.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D57DF1215765F700032EE58 /* EnterAssistant_BarItem.png */; };
+		9D94F69E151F401200EA1DED /* ScheduleFormCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D94F69D151F401200EA1DED /* ScheduleFormCell.m */; };
+		9DA3383B14FB7197000491CB /* EnterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA3383A14FB7197000491CB /* EnterHelper.m */; };
+		9DA3384814FB7C8E000491CB /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA3384414FB7C8E000491CB /* blueArrow.png */; };
+		9DA3384914FB7C8E000491CB /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA3384514FB7C8E000491CB /* blueArrow@2x.png */; };
+		9DA3384A14FB7C8E000491CB /* RefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA3384714FB7C8E000491CB /* RefreshView.m */; };
+		9DAF256D1537CDBD00E340E3 /* CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAF256C1537CDBD00E340E3 /* CustomNavigationBar.m */; };
+		9DAF25701537CF8600E340E3 /* CustomToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAF256F1537CF8500E340E3 /* CustomToolBar.m */; };
+		9DB99A4315170210003BE7D4 /* DFFloatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB99A4215170210003BE7D4 /* DFFloatingView.m */; };
+		9DCACD71157E2B0A00B78303 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCACD6C157E2B0A00B78303 /* Icon-Small@2x.png */; };
+		9DCACD73157E2B0A00B78303 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCACD6E157E2B0A00B78303 /* iTunesArtwork.png */; };
+		9DCACD74157E2B0A00B78303 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCACD6F157E2B0A00B78303 /* Icon-Small.png */; };
+		9DCACD79157E2BAD00B78303 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCACD78157E2BAD00B78303 /* Icon.png */; };
+		9DCACD7B157E2BB600B78303 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCACD7A157E2BB600B78303 /* Icon@2x.png */; };
+		9DD1ADCE14DE4D3D009C0E8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD1ADCD14DE4D3D009C0E8C /* UIKit.framework */; };
+		9DD1ADD014DE4D3D009C0E8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD1ADCF14DE4D3D009C0E8C /* Foundation.framework */; };
+		9DD1ADD214DE4D3D009C0E8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD1ADD114DE4D3D009C0E8C /* CoreGraphics.framework */; };
+		9DD1ADD414DE4D3D009C0E8C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD1ADD314DE4D3D009C0E8C /* CoreData.framework */; };
+		9DD1ADDA14DE4D3E009C0E8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DD1ADD814DE4D3E009C0E8C /* InfoPlist.strings */; };
+		9DD1ADE014DE4D3E009C0E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1ADDF14DE4D3E009C0E8C /* AppDelegate.m */; };
+		9DD1AE1614DE5027009C0E8C /* CourseCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1ADFB14DE5027009C0E8C /* CourseCon.m */; };
+		9DD1AE1714DE5027009C0E8C /* CSDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1ADFD14DE5027009C0E8C /* CSDataCenter.m */; };
+		9DD1AE1814DE5027009C0E8C /* CoursesNvCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1ADFF14DE5027009C0E8C /* CoursesNvCon.m */; };
+		9DD1AE1914DE5027009C0E8C /* CourseTableCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1AE0114DE5027009C0E8C /* CourseTableCon.m */; };
+		9DD1AE1A14DE5027009C0E8C /* DayCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1AE0414DE5027009C0E8C /* DayCon.m */; };
+		9DD1AE1B14DE5027009C0E8C /* DFControllerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1AE0614DE5027009C0E8C /* DFControllerManager.m */; };
+		9DD1AE2014DE5027009C0E8C /* HtmTdParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1AE0F14DE5027009C0E8C /* HtmTdParser.m */; };
+		9DD1AE2214DE5027009C0E8C /* ScheduleNvCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1AE1314DE5027009C0E8C /* ScheduleNvCon.m */; };
+		9DD1AE3414DE505C009C0E8C /* ClasSchedule.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1AE2C14DE505C009C0E8C /* ClasSchedule.xcdatamodeld */; };
+		9DD1AE4614DE5228009C0E8C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DD1AE4814DE5228009C0E8C /* Localizable.strings */; };
+		9DD66CA81563AC3900F252E4 /* DFTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD66CA71563AC3900F252E4 /* DFTime.m */; };
+		9DD66CB61563AF7400F252E4 /* DFButtonsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD66CAB1563AF7400F252E4 /* DFButtonsManager.m */; };
+		9DD66CB71563AF7400F252E4 /* DFDragerAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD66CAD1563AF7400F252E4 /* DFDragerAccessory.m */; };
+		9DD66CB81563AF7400F252E4 /* DFScheduleBoundaryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD66CAF1563AF7400F252E4 /* DFScheduleBoundaryManager.m */; };
+		9DD66CB91563AF7400F252E4 /* DFScheduleBoundaryManagerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD66CB11563AF7400F252E4 /* DFScheduleBoundaryManagerCell.m */; };
+		9DD66CBA1563AF7400F252E4 /* DFScrollScheduleBoundaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD66CB31563AF7400F252E4 /* DFScrollScheduleBoundaryView.m */; };
+		9DD66CBB1563AF7400F252E4 /* DFStretcherAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD66CB51563AF7400F252E4 /* DFStretcherAccessory.m */; };
+		9DE7D3CC15710964005EA7CE /* DFBalloonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE7D3CB15710964005EA7CE /* DFBalloonView.m */; };
+		9DE9968214DFD3660002FAE3 /* DayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9968114DFD3650002FAE3 /* DayCell.m */; };
+		9DF04A1B14E8E55A005AF396 /* CourseTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF04A1A14E8E55A005AF396 /* CourseTableCell.m */; };
+		9DF61E7C15734625009E3397 /* DayCellNotFocused.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DF61E7B15734625009E3397 /* DayCellNotFocused.xib */; };
+		9DF61E7E157352CA009E3397 /* DayCellFocused.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DF61E7D157352C9009E3397 /* DayCellFocused.xib */; };
+		9DF6ADFB1531D477002151BD /* NotesPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF6ADFA1531D477002151BD /* NotesPad.m */; };
+		9DF92657157F2210003F1F9D /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF92656157F2210003F1F9D /* Note.m */; };
+		9DF9265B157F2210003F1F9D /* RowsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9265A157F2210003F1F9D /* RowsInfo.m */; };
+		9DF9265E157F2211003F1F9D /* EnterHelperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF9265D157F2211003F1F9D /* EnterHelperCell.m */; };
+		9DF92661157F2211003F1F9D /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF92660157F2211003F1F9D /* Schedule.m */; };
+		9DF92664157F2212003F1F9D /* CourseExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF92663157F2212003F1F9D /* CourseExtension.m */; };
+		9DF92667157F2212003F1F9D /* ColsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF92666157F2212003F1F9D /* ColsInfo.m */; };
+		9DF9266A157F2213003F1F9D /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF92669157F2213003F1F9D /* Course.m */; };
+		9DFA89B11574F8BA00C11D5B /* NotePaper_Shrank.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFA89AF1574F8BA00C11D5B /* NotePaper_Shrank.png */; };
+		9DFA89B21574F8BA00C11D5B /* NotePaper_Shrank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFA89B01574F8BA00C11D5B /* NotePaper_Shrank@2x.png */; };
+		9DFC31B5157CA5AB001045A1 /* WeekConInstructor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DFC31B7157CA5AB001045A1 /* WeekConInstructor.xib */; };
+		9DFC31B8157CA5B8001045A1 /* WeekCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC31BA157CA5B8001045A1 /* WeekCon.m */; };
+		9DFC31BB157CA5BC001045A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC31BD157CA5BC001045A1 /* main.m */; };
+		9DFC31BF157CAA57001045A1 /* CourseTableConInstructor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DFC31C1157CAA57001045A1 /* CourseTableConInstructor.xib */; };
+		9DFC31C3157CABF1001045A1 /* DayConInstructor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DFC31C5157CABF1001045A1 /* DayConInstructor.xib */; };
+		9DFC31C9157CB412001045A1 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC31C8157CB412001045A1 /* CustomNavigationController.m */; };
+		9DFC31CC157CB680001045A1 /* WoodBottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFC31CA157CB680001045A1 /* WoodBottom@2x.png */; };
+		9DFC31CD157CB680001045A1 /* WoodBottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFC31CB157CB680001045A1 /* WoodBottom.png */; };
+		9DFCB216157E454B00098D51 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFCB215157E454A00098D51 /* Default@2x.png */; };
+		9DFCB218157E454E00098D51 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFCB217157E454E00098D51 /* Default.png */; };
+		9DFCB224157E4DE100098D51 /* TrashBin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFCB222157E4DE100098D51 /* TrashBin@2x.png */; };
+		9DFCB225157E4DE100098D51 /* TrashBin.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFCB223157E4DE100098D51 /* TrashBin.png */; };
+		9DFDF27415678C520064BCB2 /* DFScheduleBoundaryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFDF27315678C520064BCB2 /* DFScheduleBoundaryButton.m */; };
+		9DFF29A2157DA45E0084197C /* CourseConInsNormal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF29A4157DA45E0084197C /* CourseConInsNormal.xib */; };
+		9DFF29A7157DA4670084197C /* CourseConInsEditing.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF29A9157DA4670084197C /* CourseConInsEditing.xib */; };
+		9DFF29AF157DB5170084197C /* Instructor_CourseController_EnterAssist_Open.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF29AB157DB5170084197C /* Instructor_CourseController_EnterAssist_Open.png */; };
+		9DFF29B0157DB5170084197C /* Instructor_CourseController_EnterAssist_Darg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF29AC157DB5170084197C /* Instructor_CourseController_EnterAssist_Darg.png */; };
+		9DFF29B1157DB5170084197C /* Instructor_CourseController_EnterAssist_Open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF29AD157DB5170084197C /* Instructor_CourseController_EnterAssist_Open@2x.png */; };
+		9DFF29B2157DB5170084197C /* Instructor_CourseController_EnterAssist_Darg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DFF29AE157DB5170084197C /* Instructor_CourseController_EnterAssist_Darg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9D0327701572381F00E4BF0B /* DFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFView.h; sourceTree = "<group>"; };
+		9D0327711572382000E4BF0B /* DFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFView.m; sourceTree = "<group>"; };
+		9D055A35157C56DE004144DE /* Instructor_CourseTable_Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instructor_CourseTable_Add.png; sourceTree = "<group>"; };
+		9D055A36157C56DE004144DE /* Instructor_CourseTable_Remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instructor_CourseTable_Remove.png; sourceTree = "<group>"; };
+		9D055A37157C56DE004144DE /* Instructor_CourseTable_Show.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instructor_CourseTable_Show.png; sourceTree = "<group>"; };
+		9D055A38157C56DF004144DE /* Instructor_CourseTable_Add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructor_CourseTable_Add@2x.png"; sourceTree = "<group>"; };
+		9D055A39157C56DF004144DE /* Instructor_CourseTable_Remove@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructor_CourseTable_Remove@2x.png"; sourceTree = "<group>"; };
+		9D055A3A157C56E0004144DE /* Instructor_CourseTable_Show@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructor_CourseTable_Show@2x.png"; sourceTree = "<group>"; };
+		9D055A43157C5E88004144DE /* DimissKeyboard_BarItem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DimissKeyboard_BarItem@2x.png"; sourceTree = "<group>"; };
+		9D055A44157C5E88004144DE /* DimissKeyboard_BarItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DimissKeyboard_BarItem.png; sourceTree = "<group>"; };
+		9D083498156D218C007ABA4D /* DFInstructor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFInstructor.h; sourceTree = "<group>"; };
+		9D083499156D218C007ABA4D /* DFInstructor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFInstructor.m; sourceTree = "<group>"; };
+		9D08349A156D218C007ABA4D /* DFInstructorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFInstructorButton.h; sourceTree = "<group>"; };
+		9D08349B156D218C007ABA4D /* DFInstructorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFInstructorButton.m; sourceTree = "<group>"; };
+		9D0D843315707641003455BA /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		9D0D843415707641003455BA /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		9D145F74153AFBCB00523995 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9D15705A1504C29C00DFA6CE /* EnterHelperTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterHelperTableCell.h; sourceTree = "<group>"; };
+		9D15705B1504C29C00DFA6CE /* EnterHelperTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterHelperTableCell.m; sourceTree = "<group>"; };
+		9D182B56151886930033204F /* EHFloatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHFloatingView.h; sourceTree = "<group>"; };
+		9D182B57151886930033204F /* EHFloatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHFloatingView.m; sourceTree = "<group>"; };
+		9D1F2E75154402EC00C0458B /* DFCourseIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCourseIconView.h; sourceTree = "<group>"; };
+		9D1F2E76154402EC00C0458B /* DFCourseIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCourseIconView.m; sourceTree = "<group>"; };
+		9D1F2E7A1544099500C0458B /* DefaultCourseIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DefaultCourseIcon.png; sourceTree = "<group>"; };
+		9D20A314156E3C1F00D5EEAD /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		9D2758A3152E91B900CBD438 /* NotePaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotePaper.h; sourceTree = "<group>"; };
+		9D2758A4152E91B900CBD438 /* NotePaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotePaper.m; sourceTree = "<group>"; };
+		9D2B45E41577890900ADDD5B /* Instructor_Add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instructor_Add.png; sourceTree = "<group>"; };
+		9D2B45E51577890900ADDD5B /* Instructor_Add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructor_Add@2x.png"; sourceTree = "<group>"; };
+		9D2B45E61577890900ADDD5B /* Instructor_Bulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instructor_Bulb.png; sourceTree = "<group>"; };
+		9D2B45E71577890900ADDD5B /* Instructor_Bulb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructor_Bulb@2x.png"; sourceTree = "<group>"; };
+		9D2B45E81577890900ADDD5B /* Instructor_Compose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instructor_Compose.png; sourceTree = "<group>"; };
+		9D2B45E91577890900ADDD5B /* Instructor_Compose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructor_Compose@2x.png"; sourceTree = "<group>"; };
+		9D2B45EA1577890900ADDD5B /* Instructor_EnterAssist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instructor_EnterAssist.png; sourceTree = "<group>"; };
+		9D2B45EB1577890900ADDD5B /* Instructor_EnterAssist@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructor_EnterAssist@2x.png"; sourceTree = "<group>"; };
+		9D2B45EC1577890900ADDD5B /* Instructor_Schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instructor_Schedule.png; sourceTree = "<group>"; };
+		9D2B45ED1577890900ADDD5B /* Instructor_Schedule@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructor_Schedule@2x.png"; sourceTree = "<group>"; };
+		9D2B45EE1577890900ADDD5B /* Instructor_Subjects.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instructor_Subjects.png; sourceTree = "<group>"; };
+		9D2B45EF1577890900ADDD5B /* Instructor_Subjects@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructor_Subjects@2x.png"; sourceTree = "<group>"; };
+		9D369DE8151C191D00DD65DA /* DFFormView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFFormView.h; sourceTree = "<group>"; };
+		9D369DE9151C191E00DD65DA /* DFFormView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFFormView.m; sourceTree = "<group>"; };
+		9D369DEC151C194700DD65DA /* DFFormViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFFormViewCell.h; sourceTree = "<group>"; };
+		9D369DED151C194800DD65DA /* DFFormViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFFormViewCell.m; sourceTree = "<group>"; };
+		9D43E1031564FC36003322BD /* DFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFObject.h; sourceTree = "<group>"; };
+		9D43E1041564FC36003322BD /* DFObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFObject.m; sourceTree = "<group>"; };
+		9D474C4A15760D7600F2F523 /* NotePaper_Expended@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NotePaper_Expended@2x.png"; sourceTree = "<group>"; };
+		9D474C4B15760D7600F2F523 /* NotePaper_Expended.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotePaper_Expended.png; sourceTree = "<group>"; };
+		9D474C4F15760FC600F2F523 /* Addition@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Addition@2x.png"; sourceTree = "<group>"; };
+		9D474C5015760FC600F2F523 /* Addition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Addition.png; sourceTree = "<group>"; };
+		9D474C58157615FD00F2F523 /* Blackboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blackboard@2x.png"; sourceTree = "<group>"; };
+		9D474C59157615FD00F2F523 /* Blackboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blackboard.png; sourceTree = "<group>"; };
+		9D474C5C157622B300F2F523 /* DFBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBarButtonItem.h; sourceTree = "<group>"; };
+		9D474C5D157622B300F2F523 /* DFBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBarButtonItem.m; sourceTree = "<group>"; };
+		9D474C6E15762B1F00F2F523 /* Instructor_BarItem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructor_BarItem@2x.png"; sourceTree = "<group>"; };
+		9D474C6F15762B1F00F2F523 /* Instructor_BarItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instructor_BarItem.png; sourceTree = "<group>"; };
+		9D474C7A157634FF00F2F523 /* Schedule_BarItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Schedule_BarItem.png; sourceTree = "<group>"; };
+		9D474C7B157634FF00F2F523 /* Schedule_BarItem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Schedule_BarItem@2x.png"; sourceTree = "<group>"; };
+		9D474C7E1576380600F2F523 /* Subjects_BarItem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Subjects_BarItem@2x.png"; sourceTree = "<group>"; };
+		9D474C7F1576380600F2F523 /* Subjects_BarItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Subjects_BarItem.png; sourceTree = "<group>"; };
+		9D4B088215249F14001BDBD0 /* CourseIconCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseIconCon.h; sourceTree = "<group>"; };
+		9D4B088315249F14001BDBD0 /* CourseIconCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseIconCon.m; sourceTree = "<group>"; };
+		9D4F6EA4157361AD0094899F /* Location_DayCell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Location_DayCell@2x.png"; sourceTree = "<group>"; };
+		9D4F6EA5157361AD0094899F /* Location_DayCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location_DayCell.png; sourceTree = "<group>"; };
+		9D4F6EA9157362970094899F /* Instructor_DayCell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructor_DayCell@2x.png"; sourceTree = "<group>"; };
+		9D4F6EAA157362970094899F /* Instructor_DayCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instructor_DayCell.png; sourceTree = "<group>"; };
+		9D4F6EAD1573632E0094899F /* Note_DayCellx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Note_DayCellx.png; sourceTree = "<group>"; };
+		9D4F6EAE1573632E0094899F /* Note_DayCell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Note_DayCell@2x.png"; sourceTree = "<group>"; };
+		9D4F6EB2157364760094899F /* CourseTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CourseTableCell.xib; path = ClasSchedule/Xib/CourseTableCell.xib; sourceTree = SOURCE_ROOT; };
+		9D4F6EBF157379730094899F /* CourseCon.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CourseCon.xib; path = ClasSchedule/Xib/CourseCon.xib; sourceTree = SOURCE_ROOT; };
+		9D4F6F0015738AE00094899F /* Instructor_CourseCon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructor_CourseCon@2x.png"; sourceTree = "<group>"; };
+		9D4F6F0115738AE00094899F /* Instructor_CourseCon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instructor_CourseCon.png; sourceTree = "<group>"; };
+		9D4F6F0415738AF30094899F /* Location_CourseCon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Location_CourseCon@2x.png"; sourceTree = "<group>"; };
+		9D4F6F0515738AF30094899F /* Location_CourseCon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location_CourseCon.png; sourceTree = "<group>"; };
+		9D57DF0D15765EDA0032EE58 /* EnterAssistant_BarItem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EnterAssistant_BarItem@2x.png"; sourceTree = "<group>"; };
+		9D57DF1215765F700032EE58 /* EnterAssistant_BarItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EnterAssistant_BarItem.png; sourceTree = "<group>"; };
+		9D94F69C151F401200EA1DED /* ScheduleFormCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleFormCell.h; sourceTree = "<group>"; };
+		9D94F69D151F401200EA1DED /* ScheduleFormCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleFormCell.m; sourceTree = "<group>"; };
+		9DA3383914FB7197000491CB /* EnterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterHelper.h; sourceTree = "<group>"; };
+		9DA3383A14FB7197000491CB /* EnterHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterHelper.m; sourceTree = "<group>"; };
+		9DA3384414FB7C8E000491CB /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		9DA3384514FB7C8E000491CB /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		9DA3384614FB7C8E000491CB /* RefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshView.h; sourceTree = "<group>"; };
+		9DA3384714FB7C8E000491CB /* RefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshView.m; sourceTree = "<group>"; };
+		9DAF256B1537CDBC00E340E3 /* CustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationBar.h; sourceTree = "<group>"; };
+		9DAF256C1537CDBD00E340E3 /* CustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationBar.m; sourceTree = "<group>"; };
+		9DAF256E1537CF8500E340E3 /* CustomToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomToolBar.h; sourceTree = "<group>"; };
+		9DAF256F1537CF8500E340E3 /* CustomToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomToolBar.m; sourceTree = "<group>"; };
+		9DB99A4115170210003BE7D4 /* DFFloatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFFloatingView.h; sourceTree = "<group>"; };
+		9DB99A4215170210003BE7D4 /* DFFloatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFFloatingView.m; sourceTree = "<group>"; };
+		9DCACD6C157E2B0A00B78303 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		9DCACD6E157E2B0A00B78303 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		9DCACD6F157E2B0A00B78303 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		9DCACD78157E2BAD00B78303 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../Icon.png; sourceTree = "<group>"; };
+		9DCACD7A157E2BB600B78303 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../Icon@2x.png"; sourceTree = "<group>"; };
+		9DD1ADC914DE4D3D009C0E8C /* ClasSchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClasSchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD1ADCD14DE4D3D009C0E8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9DD1ADCF14DE4D3D009C0E8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9DD1ADD114DE4D3D009C0E8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9DD1ADD314DE4D3D009C0E8C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9DD1ADD714DE4D3E009C0E8C /* ClasSchedule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClasSchedule-Info.plist"; sourceTree = "<group>"; };
+		9DD1ADD914DE4D3E009C0E8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9DD1ADDD14DE4D3E009C0E8C /* ClasSchedule-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClasSchedule-Prefix.pch"; sourceTree = "<group>"; };
+		9DD1ADDE14DE4D3E009C0E8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DD1ADDF14DE4D3E009C0E8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DD1ADFA14DE5027009C0E8C /* CourseCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseCon.h; sourceTree = "<group>"; };
+		9DD1ADFB14DE5027009C0E8C /* CourseCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseCon.m; sourceTree = "<group>"; };
+		9DD1ADFD14DE5027009C0E8C /* CSDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSDataCenter.m; sourceTree = "<group>"; };
+		9DD1ADFE14DE5027009C0E8C /* CoursesNvCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursesNvCon.h; sourceTree = "<group>"; };
+		9DD1ADFF14DE5027009C0E8C /* CoursesNvCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoursesNvCon.m; sourceTree = "<group>"; };
+		9DD1AE0014DE5027009C0E8C /* CourseTableCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseTableCon.h; sourceTree = "<group>"; };
+		9DD1AE0114DE5027009C0E8C /* CourseTableCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseTableCon.m; sourceTree = "<group>"; };
+		9DD1AE0214DE5027009C0E8C /* CSDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSDataCenter.h; sourceTree = "<group>"; };
+		9DD1AE0314DE5027009C0E8C /* DayCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayCon.h; sourceTree = "<group>"; };
+		9DD1AE0414DE5027009C0E8C /* DayCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayCon.m; sourceTree = "<group>"; };
+		9DD1AE0514DE5027009C0E8C /* DFControllerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFControllerManager.h; sourceTree = "<group>"; };
+		9DD1AE0614DE5027009C0E8C /* DFControllerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFControllerManager.m; sourceTree = "<group>"; };
+		9DD1AE0E14DE5027009C0E8C /* HtmTdParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmTdParser.h; sourceTree = "<group>"; };
+		9DD1AE0F14DE5027009C0E8C /* HtmTdParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmTdParser.m; sourceTree = "<group>"; };
+		9DD1AE1214DE5027009C0E8C /* ScheduleNvCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleNvCon.h; sourceTree = "<group>"; };
+		9DD1AE1314DE5027009C0E8C /* ScheduleNvCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleNvCon.m; sourceTree = "<group>"; };
+		9DD1AE1414DE5027009C0E8C /* WeekCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekCon.h; sourceTree = "<group>"; };
+		9DD1AE2D14DE505C009C0E8C /* ClasSchedule.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClasSchedule.xcdatamodel; sourceTree = "<group>"; };
+		9DD1AE4714DE5228009C0E8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9DD1AE4914DE522E009C0E8C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9DD66CA61563AC3900F252E4 /* DFTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFTime.h; sourceTree = "<group>"; };
+		9DD66CA71563AC3900F252E4 /* DFTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFTime.m; sourceTree = "<group>"; };
+		9DD66CAA1563AF7400F252E4 /* DFButtonsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFButtonsManager.h; sourceTree = "<group>"; };
+		9DD66CAB1563AF7400F252E4 /* DFButtonsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFButtonsManager.m; sourceTree = "<group>"; };
+		9DD66CAC1563AF7400F252E4 /* DFDragerAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFDragerAccessory.h; sourceTree = "<group>"; };
+		9DD66CAD1563AF7400F252E4 /* DFDragerAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFDragerAccessory.m; sourceTree = "<group>"; };
+		9DD66CAE1563AF7400F252E4 /* DFScheduleBoundaryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFScheduleBoundaryManager.h; sourceTree = "<group>"; };
+		9DD66CAF1563AF7400F252E4 /* DFScheduleBoundaryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFScheduleBoundaryManager.m; sourceTree = "<group>"; };
+		9DD66CB01563AF7400F252E4 /* DFScheduleBoundaryManagerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFScheduleBoundaryManagerCell.h; sourceTree = "<group>"; };
+		9DD66CB11563AF7400F252E4 /* DFScheduleBoundaryManagerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFScheduleBoundaryManagerCell.m; sourceTree = "<group>"; };
+		9DD66CB21563AF7400F252E4 /* DFScrollScheduleBoundaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFScrollScheduleBoundaryView.h; sourceTree = "<group>"; };
+		9DD66CB31563AF7400F252E4 /* DFScrollScheduleBoundaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFScrollScheduleBoundaryView.m; sourceTree = "<group>"; };
+		9DD66CB41563AF7400F252E4 /* DFStretcherAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFStretcherAccessory.h; sourceTree = "<group>"; };
+		9DD66CB51563AF7400F252E4 /* DFStretcherAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFStretcherAccessory.m; sourceTree = "<group>"; };
+		9DE7D3CA15710964005EA7CE /* DFBalloonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBalloonView.h; sourceTree = "<group>"; };
+		9DE7D3CB15710964005EA7CE /* DFBalloonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBalloonView.m; sourceTree = "<group>"; };
+		9DE9968014DFD3650002FAE3 /* DayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayCell.h; sourceTree = "<group>"; };
+		9DE9968114DFD3650002FAE3 /* DayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayCell.m; sourceTree = "<group>"; };
+		9DF04A1914E8E55A005AF396 /* CourseTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseTableCell.h; sourceTree = "<group>"; };
+		9DF04A1A14E8E55A005AF396 /* CourseTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseTableCell.m; sourceTree = "<group>"; };
+		9DF61E7B15734625009E3397 /* DayCellNotFocused.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DayCellNotFocused.xib; path = ClasSchedule/Xib/DayCellNotFocused.xib; sourceTree = SOURCE_ROOT; };
+		9DF61E7D157352C9009E3397 /* DayCellFocused.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DayCellFocused.xib; path = ClasSchedule/Xib/DayCellFocused.xib; sourceTree = SOURCE_ROOT; };
+		9DF6ADF91531D477002151BD /* NotesPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesPad.h; sourceTree = "<group>"; };
+		9DF6ADFA1531D477002151BD /* NotesPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesPad.m; sourceTree = "<group>"; };
+		9DF92655157F2210003F1F9D /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		9DF92656157F2210003F1F9D /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		9DF92659157F2210003F1F9D /* RowsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowsInfo.h; sourceTree = "<group>"; };
+		9DF9265A157F2210003F1F9D /* RowsInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowsInfo.m; sourceTree = "<group>"; };
+		9DF9265C157F2211003F1F9D /* EnterHelperCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterHelperCell.h; sourceTree = "<group>"; };
+		9DF9265D157F2211003F1F9D /* EnterHelperCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterHelperCell.m; sourceTree = "<group>"; };
+		9DF9265F157F2211003F1F9D /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Schedule.h; sourceTree = "<group>"; };
+		9DF92660157F2211003F1F9D /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Schedule.m; sourceTree = "<group>"; };
+		9DF92662157F2212003F1F9D /* CourseExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseExtension.h; sourceTree = "<group>"; };
+		9DF92663157F2212003F1F9D /* CourseExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseExtension.m; sourceTree = "<group>"; };
+		9DF92665157F2212003F1F9D /* ColsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColsInfo.h; sourceTree = "<group>"; };
+		9DF92666157F2212003F1F9D /* ColsInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColsInfo.m; sourceTree = "<group>"; };
+		9DF92668157F2213003F1F9D /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		9DF92669157F2213003F1F9D /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		9DFA89AF1574F8BA00C11D5B /* NotePaper_Shrank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NotePaper_Shrank.png; sourceTree = "<group>"; };
+		9DFA89B01574F8BA00C11D5B /* NotePaper_Shrank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NotePaper_Shrank@2x.png"; sourceTree = "<group>"; };
+		9DFC31B4157C9ABE001045A1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		9DFC31B6157CA5AB001045A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WeekConInstructor.xib; sourceTree = "<group>"; };
+		9DFC31B9157CA5B8001045A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/WeekCon.m; sourceTree = "<group>"; };
+		9DFC31BC157CA5BC001045A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/main.m; sourceTree = "<group>"; };
+		9DFC31BE157CA5DF001045A1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/WeekConInstructor.xib"; sourceTree = "<group>"; };
+		9DFC31C0157CAA57001045A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CourseTableConInstructor.xib; sourceTree = "<group>"; };
+		9DFC31C2157CAA63001045A1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/CourseTableConInstructor.xib"; sourceTree = "<group>"; };
+		9DFC31C4157CABF1001045A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DayConInstructor.xib; sourceTree = "<group>"; };
+		9DFC31C6157CABF6001045A1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/DayConInstructor.xib"; sourceTree = "<group>"; };
+		9DFC31C7157CB411001045A1 /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		9DFC31C8157CB412001045A1 /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		9DFC31CA157CB680001045A1 /* WoodBottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WoodBottom@2x.png"; sourceTree = "<group>"; };
+		9DFC31CB157CB680001045A1 /* WoodBottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WoodBottom.png; sourceTree = "<group>"; };
+		9DFCB215157E454A00098D51 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../Default@2x.png"; sourceTree = "<group>"; };
+		9DFCB217157E454E00098D51 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../Default.png; sourceTree = "<group>"; };
+		9DFCB222157E4DE100098D51 /* TrashBin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TrashBin@2x.png"; sourceTree = "<group>"; };
+		9DFCB223157E4DE100098D51 /* TrashBin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrashBin.png; sourceTree = "<group>"; };
+		9DFDF27215678C520064BCB2 /* DFScheduleBoundaryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFScheduleBoundaryButton.h; sourceTree = "<group>"; };
+		9DFDF27315678C520064BCB2 /* DFScheduleBoundaryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFScheduleBoundaryButton.m; sourceTree = "<group>"; };
+		9DFF29A3157DA45E0084197C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CourseConInsNormal.xib; sourceTree = "<group>"; };
+		9DFF29A6157DA4620084197C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/CourseConInsNormal.xib"; sourceTree = "<group>"; };
+		9DFF29A8157DA4670084197C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CourseConInsEditing.xib; sourceTree = "<group>"; };
+		9DFF29AA157DA46D0084197C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/CourseConInsEditing.xib"; sourceTree = "<group>"; };
+		9DFF29AB157DB5170084197C /* Instructor_CourseController_EnterAssist_Open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instructor_CourseController_EnterAssist_Open.png; sourceTree = "<group>"; };
+		9DFF29AC157DB5170084197C /* Instructor_CourseController_EnterAssist_Darg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Instructor_CourseController_EnterAssist_Darg.png; sourceTree = "<group>"; };
+		9DFF29AD157DB5170084197C /* Instructor_CourseController_EnterAssist_Open@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructor_CourseController_EnterAssist_Open@2x.png"; sourceTree = "<group>"; };
+		9DFF29AE157DB5170084197C /* Instructor_CourseController_EnterAssist_Darg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Instructor_CourseController_EnterAssist_Darg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DD1ADC614DE4D3D009C0E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D145F75153AFBCB00523995 /* QuartzCore.framework in Frameworks */,
+				9DD1ADCE14DE4D3D009C0E8C /* UIKit.framework in Frameworks */,
+				9DD1ADD014DE4D3D009C0E8C /* Foundation.framework in Frameworks */,
+				9DD1ADD214DE4D3D009C0E8C /* CoreGraphics.framework in Frameworks */,
+				9DD1ADD414DE4D3D009C0E8C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D0122B914DF99A800CB844D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DD1AE2B14DE505C009C0E8C /* CoreData */,
+				9DD1AE0214DE5027009C0E8C /* CSDataCenter.h */,
+				9DD1ADFD14DE5027009C0E8C /* CSDataCenter.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9D0122BB14DF99ED00CB844D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D94F69C151F401200EA1DED /* ScheduleFormCell.h */,
+				9D94F69D151F401200EA1DED /* ScheduleFormCell.m */,
+				9DF61E79157345B0009E3397 /* SubjectCellInDayTabel */,
+				9D4F6EB11573643A0094899F /* SubjectCellInCoursesTabel */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9D0122C314DF9AE500CB844D /* EnterHelper */ = {
+			isa = PBXGroup;
+			children = (
+				9DA3384314FB7C8E000491CB /* RefreshView */,
+				9DA3383914FB7197000491CB /* EnterHelper.h */,
+				9DA3383A14FB7197000491CB /* EnterHelper.m */,
+				9D15705A1504C29C00DFA6CE /* EnterHelperTableCell.h */,
+				9D15705B1504C29C00DFA6CE /* EnterHelperTableCell.m */,
+				9D182B56151886930033204F /* EHFloatingView.h */,
+				9D182B57151886930033204F /* EHFloatingView.m */,
+				9DD1AE0E14DE5027009C0E8C /* HtmTdParser.h */,
+				9DD1AE0F14DE5027009C0E8C /* HtmTdParser.m */,
+			);
+			name = EnterHelper;
+			sourceTree = "<group>";
+		};
+		9D055A41157C56E6004144DE /* CourseTable */ = {
+			isa = PBXGroup;
+			children = (
+				9D055A35157C56DE004144DE /* Instructor_CourseTable_Add.png */,
+				9D055A36157C56DE004144DE /* Instructor_CourseTable_Remove.png */,
+				9D055A37157C56DE004144DE /* Instructor_CourseTable_Show.png */,
+				9D055A38157C56DF004144DE /* Instructor_CourseTable_Add@2x.png */,
+				9D055A39157C56DF004144DE /* Instructor_CourseTable_Remove@2x.png */,
+				9D055A3A157C56E0004144DE /* Instructor_CourseTable_Show@2x.png */,
+			);
+			name = CourseTable;
+			sourceTree = "<group>";
+		};
+		9D055A42157C5770004144DE /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				9D2B45E41577890900ADDD5B /* Instructor_Add.png */,
+				9D2B45E51577890900ADDD5B /* Instructor_Add@2x.png */,
+				9D2B45E61577890900ADDD5B /* Instructor_Bulb.png */,
+				9D2B45E71577890900ADDD5B /* Instructor_Bulb@2x.png */,
+				9D2B45E81577890900ADDD5B /* Instructor_Compose.png */,
+				9D2B45E91577890900ADDD5B /* Instructor_Compose@2x.png */,
+				9D2B45EA1577890900ADDD5B /* Instructor_EnterAssist.png */,
+				9D2B45EB1577890900ADDD5B /* Instructor_EnterAssist@2x.png */,
+				9D2B45EC1577890900ADDD5B /* Instructor_Schedule.png */,
+				9D2B45ED1577890900ADDD5B /* Instructor_Schedule@2x.png */,
+				9D2B45EE1577890900ADDD5B /* Instructor_Subjects.png */,
+				9D2B45EF1577890900ADDD5B /* Instructor_Subjects@2x.png */,
+			);
+			name = ToolBar;
+			sourceTree = "<group>";
+		};
+		9D08349F156D2193007ABA4D /* DFInstructor */ = {
+			isa = PBXGroup;
+			children = (
+				9D083498156D218C007ABA4D /* DFInstructor.h */,
+				9D083499156D218C007ABA4D /* DFInstructor.m */,
+				9D08349A156D218C007ABA4D /* DFInstructorButton.h */,
+				9D08349B156D218C007ABA4D /* DFInstructorButton.m */,
+			);
+			name = DFInstructor;
+			sourceTree = "<group>";
+		};
+		9D0D843115707603003455BA /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				9D0D843315707641003455BA /* Test.h */,
+				9D0D843415707641003455BA /* Test.m */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		9D1F2E79154402F100C0458B /* DFCourseIconView */ = {
+			isa = PBXGroup;
+			children = (
+				9D1F2E75154402EC00C0458B /* DFCourseIconView.h */,
+				9D1F2E76154402EC00C0458B /* DFCourseIconView.m */,
+			);
+			name = DFCourseIconView;
+			sourceTree = "<group>";
+		};
+		9D20A309156E28D500D5EEAD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9DD1AE0514DE5027009C0E8C /* DFControllerManager.h */,
+				9DD1AE0614DE5027009C0E8C /* DFControllerManager.m */,
+				9D20A30B156E292B00D5EEAD /* Schedule */,
+				9D20A30C156E294600D5EEAD /* Courses */,
+				9D20A30E156E295F00D5EEAD /* Course */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9D20A30B156E292B00D5EEAD /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				9DD1AE1214DE5027009C0E8C /* ScheduleNvCon.h */,
+				9DD1AE1314DE5027009C0E8C /* ScheduleNvCon.m */,
+				9DD1AE1414DE5027009C0E8C /* WeekCon.h */,
+				9DFC31BA157CA5B8001045A1 /* WeekCon.m */,
+				9DFC31B7157CA5AB001045A1 /* WeekConInstructor.xib */,
+				9DD1AE0314DE5027009C0E8C /* DayCon.h */,
+				9DD1AE0414DE5027009C0E8C /* DayCon.m */,
+				9DFC31C5157CABF1001045A1 /* DayConInstructor.xib */,
+			);
+			name = Schedule;
+			sourceTree = "<group>";
+		};
+		9D20A30C156E294600D5EEAD /* Courses */ = {
+			isa = PBXGroup;
+			children = (
+				9DD1ADFE14DE5027009C0E8C /* CoursesNvCon.h */,
+				9DD1ADFF14DE5027009C0E8C /* CoursesNvCon.m */,
+				9DD1AE0014DE5027009C0E8C /* CourseTableCon.h */,
+				9DD1AE0114DE5027009C0E8C /* CourseTableCon.m */,
+				9DFC31C1157CAA57001045A1 /* CourseTableConInstructor.xib */,
+			);
+			name = Courses;
+			sourceTree = "<group>";
+		};
+		9D20A30E156E295F00D5EEAD /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				9DD1ADFA14DE5027009C0E8C /* CourseCon.h */,
+				9DD1ADFB14DE5027009C0E8C /* CourseCon.m */,
+				9D4F6EBF157379730094899F /* CourseCon.xib */,
+				9DFF29A4157DA45E0084197C /* CourseConInsNormal.xib */,
+				9DFF29A9157DA4670084197C /* CourseConInsEditing.xib */,
+				9D4B088215249F14001BDBD0 /* CourseIconCon.h */,
+				9D4B088315249F14001BDBD0 /* CourseIconCon.m */,
+			);
+			name = Course;
+			sourceTree = "<group>";
+		};
+		9D2B45FD1577890F00ADDD5B /* Instrutor */ = {
+			isa = PBXGroup;
+			children = (
+				9D055A42157C5770004144DE /* ToolBar */,
+				9D055A41157C56E6004144DE /* CourseTable */,
+				9DFF29B3157DB51D0084197C /* CourseController */,
+			);
+			name = Instrutor;
+			sourceTree = "<group>";
+		};
+		9D369DEF151C195C00DD65DA /* DFForm */ = {
+			isa = PBXGroup;
+			children = (
+				9D369DE8151C191D00DD65DA /* DFFormView.h */,
+				9D369DE9151C191E00DD65DA /* DFFormView.m */,
+				9D369DEC151C194700DD65DA /* DFFormViewCell.h */,
+				9D369DED151C194800DD65DA /* DFFormViewCell.m */,
+			);
+			name = DFForm;
+			sourceTree = "<group>";
+		};
+		9D474C5F1576266300F2F523 /* NotePaper */ = {
+			isa = PBXGroup;
+			children = (
+				9D474C4F15760FC600F2F523 /* Addition@2x.png */,
+				9D474C5015760FC600F2F523 /* Addition.png */,
+				9D474C4A15760D7600F2F523 /* NotePaper_Expended@2x.png */,
+				9D474C4B15760D7600F2F523 /* NotePaper_Expended.png */,
+				9DFA89AF1574F8BA00C11D5B /* NotePaper_Shrank.png */,
+				9DFA89B01574F8BA00C11D5B /* NotePaper_Shrank@2x.png */,
+			);
+			name = NotePaper;
+			sourceTree = "<group>";
+		};
+		9D474C601576268100F2F523 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				9D4F6EAD1573632E0094899F /* Note_DayCellx.png */,
+				9D4F6EAE1573632E0094899F /* Note_DayCell@2x.png */,
+				9D4F6F0015738AE00094899F /* Instructor_CourseCon@2x.png */,
+				9D4F6F0115738AE00094899F /* Instructor_CourseCon.png */,
+				9D4F6EA9157362970094899F /* Instructor_DayCell@2x.png */,
+				9D4F6EAA157362970094899F /* Instructor_DayCell.png */,
+				9D4F6F0415738AF30094899F /* Location_CourseCon@2x.png */,
+				9D4F6F0515738AF30094899F /* Location_CourseCon.png */,
+				9D4F6EA4157361AD0094899F /* Location_DayCell@2x.png */,
+				9D4F6EA5157361AD0094899F /* Location_DayCell.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		9D474C611576269900F2F523 /* Enviroment */ = {
+			isa = PBXGroup;
+			children = (
+				9DFC31CA157CB680001045A1 /* WoodBottom@2x.png */,
+				9DFC31CB157CB680001045A1 /* WoodBottom.png */,
+				9D474C58157615FD00F2F523 /* Blackboard@2x.png */,
+				9D474C59157615FD00F2F523 /* Blackboard.png */,
+			);
+			name = Enviroment;
+			sourceTree = "<group>";
+		};
+		9D474C82157639F300F2F523 /* BarItem */ = {
+			isa = PBXGroup;
+			children = (
+				9D055A43157C5E88004144DE /* DimissKeyboard_BarItem@2x.png */,
+				9D055A44157C5E88004144DE /* DimissKeyboard_BarItem.png */,
+				9D57DF0D15765EDA0032EE58 /* EnterAssistant_BarItem@2x.png */,
+				9D57DF1215765F700032EE58 /* EnterAssistant_BarItem.png */,
+				9D474C6E15762B1F00F2F523 /* Instructor_BarItem@2x.png */,
+				9D474C6F15762B1F00F2F523 /* Instructor_BarItem.png */,
+				9D474C7A157634FF00F2F523 /* Schedule_BarItem.png */,
+				9D474C7B157634FF00F2F523 /* Schedule_BarItem@2x.png */,
+				9D474C7E1576380600F2F523 /* Subjects_BarItem@2x.png */,
+				9D474C7F1576380600F2F523 /* Subjects_BarItem.png */,
+			);
+			name = BarItem;
+			sourceTree = "<group>";
+		};
+		9D4F6EB11573643A0094899F /* SubjectCellInCoursesTabel */ = {
+			isa = PBXGroup;
+			children = (
+				9DF04A1914E8E55A005AF396 /* CourseTableCell.h */,
+				9DF04A1A14E8E55A005AF396 /* CourseTableCell.m */,
+				9D4F6EB2157364760094899F /* CourseTableCell.xib */,
+			);
+			name = SubjectCellInCoursesTabel;
+			sourceTree = "<group>";
+		};
+		9DA3384314FB7C8E000491CB /* RefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				9DA3384414FB7C8E000491CB /* blueArrow.png */,
+				9DA3384514FB7C8E000491CB /* blueArrow@2x.png */,
+				9DA3384614FB7C8E000491CB /* RefreshView.h */,
+				9DA3384714FB7C8E000491CB /* RefreshView.m */,
+			);
+			path = RefreshView;
+			sourceTree = "<group>";
+		};
+		9DAF25791537D31500E340E3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9D43E1031564FC36003322BD /* DFObject.h */,
+				9D43E1041564FC36003322BD /* DFObject.m */,
+				9D0327701572381F00E4BF0B /* DFView.h */,
+				9D0327711572382000E4BF0B /* DFView.m */,
+				9DD66CA61563AC3900F252E4 /* DFTime.h */,
+				9DD66CA71563AC3900F252E4 /* DFTime.m */,
+				9DFC31C7157CB411001045A1 /* CustomNavigationController.h */,
+				9DFC31C8157CB412001045A1 /* CustomNavigationController.m */,
+				9DAF256B1537CDBC00E340E3 /* CustomNavigationBar.h */,
+				9DAF256C1537CDBD00E340E3 /* CustomNavigationBar.m */,
+				9DAF256E1537CF8500E340E3 /* CustomToolBar.h */,
+				9DAF256F1537CF8500E340E3 /* CustomToolBar.m */,
+				9D474C5C157622B300F2F523 /* DFBarButtonItem.h */,
+				9D474C5D157622B300F2F523 /* DFBarButtonItem.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		9DCACD6A157E2AFD00B78303 /* IconsDefault */ = {
+			isa = PBXGroup;
+			children = (
+				9DFCB217157E454E00098D51 /* Default.png */,
+				9DFCB215157E454A00098D51 /* Default@2x.png */,
+				9DCACD6C157E2B0A00B78303 /* Icon-Small@2x.png */,
+				9DCACD7A157E2BB600B78303 /* Icon@2x.png */,
+				9DCACD78157E2BAD00B78303 /* Icon.png */,
+				9DCACD6E157E2B0A00B78303 /* iTunesArtwork.png */,
+				9DCACD6F157E2B0A00B78303 /* Icon-Small.png */,
+			);
+			name = IconsDefault;
+			sourceTree = "<group>";
+		};
+		9DD1ADBE14DE4D3D009C0E8C = {
+			isa = PBXGroup;
+			children = (
+				9DD1ADD514DE4D3D009C0E8C /* ClasSchedule */,
+				9DD1ADCC14DE4D3D009C0E8C /* Frameworks */,
+				9DD1ADCA14DE4D3D009C0E8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DD1ADCA14DE4D3D009C0E8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DD1ADC914DE4D3D009C0E8C /* ClasSchedule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DD1ADCC14DE4D3D009C0E8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D145F74153AFBCB00523995 /* QuartzCore.framework */,
+				9DD1ADCD14DE4D3D009C0E8C /* UIKit.framework */,
+				9DD1ADCF14DE4D3D009C0E8C /* Foundation.framework */,
+				9DD1ADD114DE4D3D009C0E8C /* CoreGraphics.framework */,
+				9DD1ADD314DE4D3D009C0E8C /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DD1ADD514DE4D3D009C0E8C /* ClasSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				9DD1ADDE14DE4D3E009C0E8C /* AppDelegate.h */,
+				9DD1ADDF14DE4D3E009C0E8C /* AppDelegate.m */,
+				9DD1ADF914DE5027009C0E8C /* Classes */,
+				9DD1AE2414DE5052009C0E8C /* Images */,
+				9DD1ADD614DE4D3E009C0E8C /* Supporting Files */,
+			);
+			path = ClasSchedule;
+			sourceTree = "<group>";
+		};
+		9DD1ADD614DE4D3E009C0E8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DFC31BD157CA5BC001045A1 /* main.m */,
+				9DD1ADDD14DE4D3E009C0E8C /* ClasSchedule-Prefix.pch */,
+				9DD1ADD814DE4D3E009C0E8C /* InfoPlist.strings */,
+				9DD1AE4814DE5228009C0E8C /* Localizable.strings */,
+				9DD1ADD714DE4D3E009C0E8C /* ClasSchedule-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DD1ADF914DE5027009C0E8C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D20A314156E3C1F00D5EEAD /* Header.h */,
+				9DD66CA91563AF7400F252E4 /* DFScrollBoundaryManager */,
+				9DF912DF1552776C007B4043 /* DFFloatingView */,
+				9D369DEF151C195C00DD65DA /* DFForm */,
+				9D08349F156D2193007ABA4D /* DFInstructor */,
+				9DF6ADFD1531D50C002151BD /* NotesPad */,
+				9D1F2E79154402F100C0458B /* DFCourseIconView */,
+				9DE7D3CE1571096C005EA7CE /* DFBalloonView */,
+				9D0122C314DF9AE500CB844D /* EnterHelper */,
+				9DAF25791537D31500E340E3 /* Category */,
+				9D0122B914DF99A800CB844D /* Model */,
+				9D20A309156E28D500D5EEAD /* Controller */,
+				9D0122BB14DF99ED00CB844D /* View */,
+				9D0D843115707603003455BA /* Test */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9DD1AE2414DE5052009C0E8C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9DCACD6A157E2AFD00B78303 /* IconsDefault */,
+				9D474C611576269900F2F523 /* Enviroment */,
+				9D474C5F1576266300F2F523 /* NotePaper */,
+				9D474C601576268100F2F523 /* Icons */,
+				9D474C82157639F300F2F523 /* BarItem */,
+				9D2B45FD1577890F00ADDD5B /* Instrutor */,
+				9D1F2E7A1544099500C0458B /* DefaultCourseIcon.png */,
+				9DFCB222157E4DE100098D51 /* TrashBin@2x.png */,
+				9DFCB223157E4DE100098D51 /* TrashBin.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9DD1AE2B14DE505C009C0E8C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				9DD1AE2C14DE505C009C0E8C /* ClasSchedule.xcdatamodeld */,
+				9DF92668157F2213003F1F9D /* Course.h */,
+				9DF92669157F2213003F1F9D /* Course.m */,
+				9DF92665157F2212003F1F9D /* ColsInfo.h */,
+				9DF92666157F2212003F1F9D /* ColsInfo.m */,
+				9DF92662157F2212003F1F9D /* CourseExtension.h */,
+				9DF92663157F2212003F1F9D /* CourseExtension.m */,
+				9DF9265F157F2211003F1F9D /* Schedule.h */,
+				9DF92660157F2211003F1F9D /* Schedule.m */,
+				9DF9265C157F2211003F1F9D /* EnterHelperCell.h */,
+				9DF9265D157F2211003F1F9D /* EnterHelperCell.m */,
+				9DF92659157F2210003F1F9D /* RowsInfo.h */,
+				9DF9265A157F2210003F1F9D /* RowsInfo.m */,
+				9DF92655157F2210003F1F9D /* Note.h */,
+				9DF92656157F2210003F1F9D /* Note.m */,
+			);
+			name = CoreData;
+			path = ../CoreData;
+			sourceTree = "<group>";
+		};
+		9DD66CA91563AF7400F252E4 /* DFScrollBoundaryManager */ = {
+			isa = PBXGroup;
+			children = (
+				9DD66CAA1563AF7400F252E4 /* DFButtonsManager.h */,
+				9DD66CAB1563AF7400F252E4 /* DFButtonsManager.m */,
+				9DD66CAC1563AF7400F252E4 /* DFDragerAccessory.h */,
+				9DD66CAD1563AF7400F252E4 /* DFDragerAccessory.m */,
+				9DD66CAE1563AF7400F252E4 /* DFScheduleBoundaryManager.h */,
+				9DD66CAF1563AF7400F252E4 /* DFScheduleBoundaryManager.m */,
+				9DD66CB01563AF7400F252E4 /* DFScheduleBoundaryManagerCell.h */,
+				9DD66CB11563AF7400F252E4 /* DFScheduleBoundaryManagerCell.m */,
+				9DD66CB21563AF7400F252E4 /* DFScrollScheduleBoundaryView.h */,
+				9DD66CB31563AF7400F252E4 /* DFScrollScheduleBoundaryView.m */,
+				9DD66CB41563AF7400F252E4 /* DFStretcherAccessory.h */,
+				9DD66CB51563AF7400F252E4 /* DFStretcherAccessory.m */,
+				9DFDF27215678C520064BCB2 /* DFScheduleBoundaryButton.h */,
+				9DFDF27315678C520064BCB2 /* DFScheduleBoundaryButton.m */,
+			);
+			path = DFScrollBoundaryManager;
+			sourceTree = "<group>";
+		};
+		9DE7D3CE1571096C005EA7CE /* DFBalloonView */ = {
+			isa = PBXGroup;
+			children = (
+				9DE7D3CA15710964005EA7CE /* DFBalloonView.h */,
+				9DE7D3CB15710964005EA7CE /* DFBalloonView.m */,
+			);
+			name = DFBalloonView;
+			sourceTree = "<group>";
+		};
+		9DF61E79157345B0009E3397 /* SubjectCellInDayTabel */ = {
+			isa = PBXGroup;
+			children = (
+				9DE9968014DFD3650002FAE3 /* DayCell.h */,
+				9DE9968114DFD3650002FAE3 /* DayCell.m */,
+				9DF61E7B15734625009E3397 /* DayCellNotFocused.xib */,
+				9DF61E7D157352C9009E3397 /* DayCellFocused.xib */,
+			);
+			name = SubjectCellInDayTabel;
+			sourceTree = "<group>";
+		};
+		9DF6ADFD1531D50C002151BD /* NotesPad */ = {
+			isa = PBXGroup;
+			children = (
+				9DF6ADF91531D477002151BD /* NotesPad.h */,
+				9DF6ADFA1531D477002151BD /* NotesPad.m */,
+				9D2758A3152E91B900CBD438 /* NotePaper.h */,
+				9D2758A4152E91B900CBD438 /* NotePaper.m */,
+			);
+			name = NotesPad;
+			sourceTree = "<group>";
+		};
+		9DF912DF1552776C007B4043 /* DFFloatingView */ = {
+			isa = PBXGroup;
+			children = (
+				9DB99A4115170210003BE7D4 /* DFFloatingView.h */,
+				9DB99A4215170210003BE7D4 /* DFFloatingView.m */,
+			);
+			name = DFFloatingView;
+			sourceTree = "<group>";
+		};
+		9DFF29B3157DB51D0084197C /* CourseController */ = {
+			isa = PBXGroup;
+			children = (
+				9DFF29AB157DB5170084197C /* Instructor_CourseController_EnterAssist_Open.png */,
+				9DFF29AC157DB5170084197C /* Instructor_CourseController_EnterAssist_Darg.png */,
+				9DFF29AD157DB5170084197C /* Instructor_CourseController_EnterAssist_Open@2x.png */,
+				9DFF29AE157DB5170084197C /* Instructor_CourseController_EnterAssist_Darg@2x.png */,
+			);
+			name = CourseController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DD1ADC814DE4D3D009C0E8C /* ClasSchedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DD1ADE614DE4D3E009C0E8C /* Build configuration list for PBXNativeTarget "ClasSchedule" */;
+			buildPhases = (
+				9DD1ADC514DE4D3D009C0E8C /* Sources */,
+				9DD1ADC614DE4D3D009C0E8C /* Frameworks */,
+				9DD1ADC714DE4D3D009C0E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClasSchedule;
+			productName = ClasSchedule;
+			productReference = 9DD1ADC914DE4D3D009C0E8C /* ClasSchedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DD1ADC014DE4D3D009C0E8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9DD1ADC314DE4D3D009C0E8C /* Build configuration list for PBXProject "ClasSchedule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 9DD1ADBE14DE4D3D009C0E8C;
+			productRefGroup = 9DD1ADCA14DE4D3D009C0E8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DD1ADC814DE4D3D009C0E8C /* ClasSchedule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DD1ADC714DE4D3D009C0E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD1ADDA14DE4D3E009C0E8C /* InfoPlist.strings in Resources */,
+				9DD1AE4614DE5228009C0E8C /* Localizable.strings in Resources */,
+				9DA3384814FB7C8E000491CB /* blueArrow.png in Resources */,
+				9DA3384914FB7C8E000491CB /* blueArrow@2x.png in Resources */,
+				9D1F2E7B1544099500C0458B /* DefaultCourseIcon.png in Resources */,
+				9DFC31C3157CABF1001045A1 /* DayConInstructor.xib in Resources */,
+				9DFC31B5157CA5AB001045A1 /* WeekConInstructor.xib in Resources */,
+				9DFC31BF157CAA57001045A1 /* CourseTableConInstructor.xib in Resources */,
+				9DFF29A2157DA45E0084197C /* CourseConInsNormal.xib in Resources */,
+				9DFF29A7157DA4670084197C /* CourseConInsEditing.xib in Resources */,
+				9DF61E7C15734625009E3397 /* DayCellNotFocused.xib in Resources */,
+				9DF61E7E157352CA009E3397 /* DayCellFocused.xib in Resources */,
+				9D4F6EA6157361AD0094899F /* Location_DayCell@2x.png in Resources */,
+				9D4F6EA7157361AD0094899F /* Location_DayCell.png in Resources */,
+				9D4F6EAB157362970094899F /* Instructor_DayCell@2x.png in Resources */,
+				9D4F6EAC157362970094899F /* Instructor_DayCell.png in Resources */,
+				9D4F6EAF1573632E0094899F /* Note_DayCellx.png in Resources */,
+				9D4F6EB01573632E0094899F /* Note_DayCell@2x.png in Resources */,
+				9D4F6EB3157364760094899F /* CourseTableCell.xib in Resources */,
+				9D4F6EC0157379730094899F /* CourseCon.xib in Resources */,
+				9D4F6F0215738AE00094899F /* Instructor_CourseCon@2x.png in Resources */,
+				9D4F6F0315738AE00094899F /* Instructor_CourseCon.png in Resources */,
+				9D4F6F0615738AF30094899F /* Location_CourseCon@2x.png in Resources */,
+				9D4F6F0715738AF30094899F /* Location_CourseCon.png in Resources */,
+				9DFA89B11574F8BA00C11D5B /* NotePaper_Shrank.png in Resources */,
+				9DFA89B21574F8BA00C11D5B /* NotePaper_Shrank@2x.png in Resources */,
+				9D474C4C15760D7600F2F523 /* NotePaper_Expended@2x.png in Resources */,
+				9D474C4D15760D7600F2F523 /* NotePaper_Expended.png in Resources */,
+				9D474C5115760FC600F2F523 /* Addition@2x.png in Resources */,
+				9D474C5215760FC600F2F523 /* Addition.png in Resources */,
+				9D474C5A157615FD00F2F523 /* Blackboard@2x.png in Resources */,
+				9D474C5B157615FD00F2F523 /* Blackboard.png in Resources */,
+				9D474C7015762B1F00F2F523 /* Instructor_BarItem@2x.png in Resources */,
+				9D474C7115762B1F00F2F523 /* Instructor_BarItem.png in Resources */,
+				9D474C7C157634FF00F2F523 /* Schedule_BarItem.png in Resources */,
+				9D474C7D157634FF00F2F523 /* Schedule_BarItem@2x.png in Resources */,
+				9D474C801576380600F2F523 /* Subjects_BarItem@2x.png in Resources */,
+				9D474C811576380600F2F523 /* Subjects_BarItem.png in Resources */,
+				9D57DF0F15765EDA0032EE58 /* EnterAssistant_BarItem@2x.png in Resources */,
+				9D57DF1315765F700032EE58 /* EnterAssistant_BarItem.png in Resources */,
+				9D2B45F01577890900ADDD5B /* Instructor_Add.png in Resources */,
+				9D2B45F11577890900ADDD5B /* Instructor_Add@2x.png in Resources */,
+				9D2B45F21577890900ADDD5B /* Instructor_Bulb.png in Resources */,
+				9D2B45F31577890900ADDD5B /* Instructor_Bulb@2x.png in Resources */,
+				9D2B45F41577890900ADDD5B /* Instructor_Compose.png in Resources */,
+				9D2B45F51577890900ADDD5B /* Instructor_Compose@2x.png in Resources */,
+				9D2B45F61577890900ADDD5B /* Instructor_EnterAssist.png in Resources */,
+				9D2B45F71577890900ADDD5B /* Instructor_EnterAssist@2x.png in Resources */,
+				9D2B45F81577890900ADDD5B /* Instructor_Schedule.png in Resources */,
+				9D2B45F91577890900ADDD5B /* Instructor_Schedule@2x.png in Resources */,
+				9D2B45FA1577890900ADDD5B /* Instructor_Subjects.png in Resources */,
+				9D2B45FB1577890900ADDD5B /* Instructor_Subjects@2x.png in Resources */,
+				9D055A3B157C56E0004144DE /* Instructor_CourseTable_Add.png in Resources */,
+				9D055A3C157C56E0004144DE /* Instructor_CourseTable_Remove.png in Resources */,
+				9D055A3D157C56E0004144DE /* Instructor_CourseTable_Show.png in Resources */,
+				9D055A3E157C56E0004144DE /* Instructor_CourseTable_Add@2x.png in Resources */,
+				9D055A3F157C56E0004144DE /* Instructor_CourseTable_Remove@2x.png in Resources */,
+				9D055A40157C56E0004144DE /* Instructor_CourseTable_Show@2x.png in Resources */,
+				9D055A45157C5E88004144DE /* DimissKeyboard_BarItem@2x.png in Resources */,
+				9D055A46157C5E88004144DE /* DimissKeyboard_BarItem.png in Resources */,
+				9DFC31CC157CB680001045A1 /* WoodBottom@2x.png in Resources */,
+				9DFC31CD157CB680001045A1 /* WoodBottom.png in Resources */,
+				9DFF29AF157DB5170084197C /* Instructor_CourseController_EnterAssist_Open.png in Resources */,
+				9DFF29B0157DB5170084197C /* Instructor_CourseController_EnterAssist_Darg.png in Resources */,
+				9DFF29B1157DB5170084197C /* Instructor_CourseController_EnterAssist_Open@2x.png in Resources */,
+				9DFF29B2157DB5170084197C /* Instructor_CourseController_EnterAssist_Darg@2x.png in Resources */,
+				9DCACD71157E2B0A00B78303 /* Icon-Small@2x.png in Resources */,
+				9DCACD73157E2B0A00B78303 /* iTunesArtwork.png in Resources */,
+				9DCACD74157E2B0A00B78303 /* Icon-Small.png in Resources */,
+				9DCACD79157E2BAD00B78303 /* Icon.png in Resources */,
+				9DCACD7B157E2BB600B78303 /* Icon@2x.png in Resources */,
+				9DFCB216157E454B00098D51 /* Default@2x.png in Resources */,
+				9DFCB218157E454E00098D51 /* Default.png in Resources */,
+				9DFCB224157E4DE100098D51 /* TrashBin@2x.png in Resources */,
+				9DFCB225157E4DE100098D51 /* TrashBin.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DD1ADC514DE4D3D009C0E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFC31BB157CA5BC001045A1 /* main.m in Sources */,
+				9DD1ADE014DE4D3E009C0E8C /* AppDelegate.m in Sources */,
+				9DD1AE1614DE5027009C0E8C /* CourseCon.m in Sources */,
+				9DD1AE1714DE5027009C0E8C /* CSDataCenter.m in Sources */,
+				9DD1AE1814DE5027009C0E8C /* CoursesNvCon.m in Sources */,
+				9DD1AE1914DE5027009C0E8C /* CourseTableCon.m in Sources */,
+				9DD1AE1A14DE5027009C0E8C /* DayCon.m in Sources */,
+				9DD1AE1B14DE5027009C0E8C /* DFControllerManager.m in Sources */,
+				9DD1AE2014DE5027009C0E8C /* HtmTdParser.m in Sources */,
+				9DD1AE2214DE5027009C0E8C /* ScheduleNvCon.m in Sources */,
+				9DFC31B8157CA5B8001045A1 /* WeekCon.m in Sources */,
+				9DD1AE3414DE505C009C0E8C /* ClasSchedule.xcdatamodeld in Sources */,
+				9DE9968214DFD3660002FAE3 /* DayCell.m in Sources */,
+				9DF04A1B14E8E55A005AF396 /* CourseTableCell.m in Sources */,
+				9DA3383B14FB7197000491CB /* EnterHelper.m in Sources */,
+				9DA3384A14FB7C8E000491CB /* RefreshView.m in Sources */,
+				9D15705C1504C29C00DFA6CE /* EnterHelperTableCell.m in Sources */,
+				9DB99A4315170210003BE7D4 /* DFFloatingView.m in Sources */,
+				9D182B58151886930033204F /* EHFloatingView.m in Sources */,
+				9D369DEA151C191F00DD65DA /* DFFormView.m in Sources */,
+				9D369DEE151C194900DD65DA /* DFFormViewCell.m in Sources */,
+				9D94F69E151F401200EA1DED /* ScheduleFormCell.m in Sources */,
+				9D4B088415249F14001BDBD0 /* CourseIconCon.m in Sources */,
+				9D2758A5152E91B900CBD438 /* NotePaper.m in Sources */,
+				9DF6ADFB1531D477002151BD /* NotesPad.m in Sources */,
+				9DAF256D1537CDBD00E340E3 /* CustomNavigationBar.m in Sources */,
+				9DAF25701537CF8600E340E3 /* CustomToolBar.m in Sources */,
+				9D1F2E77154402EC00C0458B /* DFCourseIconView.m in Sources */,
+				9DD66CA81563AC3900F252E4 /* DFTime.m in Sources */,
+				9DD66CB61563AF7400F252E4 /* DFButtonsManager.m in Sources */,
+				9DD66CB71563AF7400F252E4 /* DFDragerAccessory.m in Sources */,
+				9DD66CB81563AF7400F252E4 /* DFScheduleBoundaryManager.m in Sources */,
+				9DD66CB91563AF7400F252E4 /* DFScheduleBoundaryManagerCell.m in Sources */,
+				9DD66CBA1563AF7400F252E4 /* DFScrollScheduleBoundaryView.m in Sources */,
+				9DD66CBB1563AF7400F252E4 /* DFStretcherAccessory.m in Sources */,
+				9D43E1051564FC36003322BD /* DFObject.m in Sources */,
+				9DFDF27415678C520064BCB2 /* DFScheduleBoundaryButton.m in Sources */,
+				9D08349C156D218C007ABA4D /* DFInstructor.m in Sources */,
+				9D08349D156D218C007ABA4D /* DFInstructorButton.m in Sources */,
+				9D0D843515707641003455BA /* Test.m in Sources */,
+				9DE7D3CC15710964005EA7CE /* DFBalloonView.m in Sources */,
+				9D0327721572382000E4BF0B /* DFView.m in Sources */,
+				9D474C5E157622B300F2F523 /* DFBarButtonItem.m in Sources */,
+				9DFC31C9157CB412001045A1 /* CustomNavigationController.m in Sources */,
+				9DF92657157F2210003F1F9D /* Note.m in Sources */,
+				9DF9265B157F2210003F1F9D /* RowsInfo.m in Sources */,
+				9DF9265E157F2211003F1F9D /* EnterHelperCell.m in Sources */,
+				9DF92661157F2211003F1F9D /* Schedule.m in Sources */,
+				9DF92664157F2212003F1F9D /* CourseExtension.m in Sources */,
+				9DF92667157F2212003F1F9D /* ColsInfo.m in Sources */,
+				9DF9266A157F2213003F1F9D /* Course.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DD1ADD814DE4D3E009C0E8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DD1ADD914DE4D3E009C0E8C /* en */,
+				9DFC31B4157C9ABE001045A1 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9DD1AE4814DE5228009C0E8C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DD1AE4714DE5228009C0E8C /* en */,
+				9DD1AE4914DE522E009C0E8C /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		9DFC31B7157CA5AB001045A1 /* WeekConInstructor.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFC31B6157CA5AB001045A1 /* en */,
+				9DFC31BE157CA5DF001045A1 /* zh-Hans */,
+			);
+			name = WeekConInstructor.xib;
+			path = ClasSchedule/Xib;
+			sourceTree = SOURCE_ROOT;
+		};
+		9DFC31BA157CA5B8001045A1 /* WeekCon.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFC31B9157CA5B8001045A1 /* en */,
+			);
+			name = WeekCon.m;
+			sourceTree = "<group>";
+		};
+		9DFC31BD157CA5BC001045A1 /* main.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFC31BC157CA5BC001045A1 /* en */,
+			);
+			name = main.m;
+			sourceTree = "<group>";
+		};
+		9DFC31C1157CAA57001045A1 /* CourseTableConInstructor.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFC31C0157CAA57001045A1 /* en */,
+				9DFC31C2157CAA63001045A1 /* zh-Hans */,
+			);
+			name = CourseTableConInstructor.xib;
+			path = ClasSchedule/Xib;
+			sourceTree = SOURCE_ROOT;
+		};
+		9DFC31C5157CABF1001045A1 /* DayConInstructor.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFC31C4157CABF1001045A1 /* en */,
+				9DFC31C6157CABF6001045A1 /* zh-Hans */,
+			);
+			name = DayConInstructor.xib;
+			path = ClasSchedule/Xib;
+			sourceTree = SOURCE_ROOT;
+		};
+		9DFF29A4157DA45E0084197C /* CourseConInsNormal.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFF29A3157DA45E0084197C /* en */,
+				9DFF29A6157DA4620084197C /* zh-Hans */,
+			);
+			name = CourseConInsNormal.xib;
+			path = ClasSchedule/Xib;
+			sourceTree = SOURCE_ROOT;
+		};
+		9DFF29A9157DA4670084197C /* CourseConInsEditing.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFF29A8157DA4670084197C /* en */,
+				9DFF29AA157DA46D0084197C /* zh-Hans */,
+			);
+			name = CourseConInsEditing.xib;
+			path = ClasSchedule/Xib;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DD1ADE414DE4D3E009C0E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Chi Wei";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chi Wei (237U4CZ4BJ)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "E41988A7-6066-40C4-ABEA-062B09ADFA80";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5FB45494-1263-4649-9A55-D5D9922EB334";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DD1ADE514DE4D3E009C0E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Chi Wei";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "E41988A7-6066-40C4-ABEA-062B09ADFA80";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DD1ADE714DE4D3E009C0E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClasSchedule/ClasSchedule-Prefix.pch";
+				INFOPLIST_FILE = "ClasSchedule/ClasSchedule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9DD1ADE814DE4D3E009C0E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClasSchedule/ClasSchedule-Prefix.pch";
+				INFOPLIST_FILE = "ClasSchedule/ClasSchedule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9DEBB327157F67EF00C17B92 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Chi Wei";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chi Wei";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "E41988A7-6066-40C4-ABEA-062B09ADFA80";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E41988A7-6066-40C4-ABEA-062B09ADFA80";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		9DEBB328157F67EF00C17B92 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClasSchedule/ClasSchedule-Prefix.pch";
+				INFOPLIST_FILE = "ClasSchedule/ClasSchedule-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DD1ADC314DE4D3D009C0E8C /* Build configuration list for PBXProject "ClasSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD1ADE414DE4D3E009C0E8C /* Debug */,
+				9DD1ADE514DE4D3E009C0E8C /* Release */,
+				9DEBB327157F67EF00C17B92 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DD1ADE614DE4D3E009C0E8C /* Build configuration list for PBXNativeTarget "ClasSchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD1ADE714DE4D3E009C0E8C /* Debug */,
+				9DD1ADE814DE4D3E009C0E8C /* Release */,
+				9DEBB328157F67EF00C17B92 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9DD1AE2C14DE505C009C0E8C /* ClasSchedule.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9DD1AE2D14DE505C009C0E8C /* ClasSchedule.xcdatamodel */,
+			);
+			currentVersion = 9DD1AE2D14DE505C009C0E8C /* ClasSchedule.xcdatamodel */;
+			path = ClasSchedule.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9DD1ADC014DE4D3D009C0E8C /* Project object */;
+}

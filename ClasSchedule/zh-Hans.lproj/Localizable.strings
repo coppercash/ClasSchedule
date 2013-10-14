@@ -1,0 +1,58 @@
+/*Week Controller*/
+"Cancel" = "关闭";
+"Done" = "确定";
+"Reset" = "重置";
+"WeekendSwitch" = "开启周末";
+
+/*Course Controller*/
+"CourseName" = "课程名称";
+"TeacherName" = "你的老师";
+"RoomName" = "上课的地方";
+
+/*Cousese Table Controller*/
+"TrashLabel" = "拖拽到此处删除";
+"Subjects" = "节课程";
+
+/*Day String*/
+"Mon" = "一";
+"Tue" = "二";
+"Wed" = "三";
+"Thu" = "四";
+"Fri" = "五";
+"Sta" = "六";
+"Sun" = "日";
+
+"Monday" = "周一";
+"Tuesday" = "周二";
+"Wednesday" = "周三";
+"Thursday" = "周四";
+"Friday" = "周五";
+"Saturday" = "周六";
+"Sunday" = "周日";
+
+/*EnterAssist*/
+"EnterAssist_Pull" = "下拉";
+"EnterAssist_Free" = "松开";
+
+/*Tip*/
+"EmptyScheduleTip" = "你的课程表是空的。点击下面的按钮进入课程界面，来添加课程到课程表中，或者创建新的课程。";
+"NoneSubjectsTip" = "没有任何课程。点击下面的按钮来创建一些课程。";
+
+/*Instructor*/
+"WeekController_00" = "编辑模式。修改课程表的行数、列数和每节课的时间信息(开始时间以及持续时间)。";
+"WeekController_01" = "课程视图。添加或删除你的课程，并将所有存在的课程以列表的方式显示出来。你可以将这些课程添加到课程表中，或从中修改，移除。";
+
+"CourseTableController_00" = "在 显示模式、添加模式 和 移除模式 之间切换。";
+"CourseTableController_01" = "添加新的课程。";
+"CourseTableController_02" = "课程表视图。显示你的课程表，并可以进入每一天的视图。";
+"CourseTableController_03_00" = "单击进入课程细节视图。";
+"CourseTableController_03_01" = "双击并拖拽到课程表中。";
+"CourseTableController_03_02" = "单击并拖拽到新的位置，或者拖拽到顶端删除。";
+
+"DayController_00" = "编辑模式。允许快速删除当天的安排，取代从课程视图中删除。";
+
+"CourseController_Normal_00" = "编辑模式。修改课程名称，教师名称，上课地点。";
+
+"CourseController_Editing_00" = "输入助手。可以从HTML文件里抽取词条，并把它们拖拽到文本框里，使输入更加方便。";
+"CourseController_Editing_01" = "下拉进入打开文件模式，进入后下拉可返回。";
+"CourseController_Editing_02" = "双击一个词条并将它拖拽到文本框中。";
